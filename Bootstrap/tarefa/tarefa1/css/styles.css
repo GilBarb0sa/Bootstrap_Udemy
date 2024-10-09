@@ -1,0 +1,32 @@
+h1 {
+  font-size: 40px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.container {
+  border: 2px dashed black; 
+  padding: 20px;
+}
+
+.row {
+  border: 2px solid red;
+  padding: 10px;
+  margin: 10px;
+}
+
+.impar {
+  border: 2px solid blue;
+  width: 250px;
+  margin: 10px;
+  text-align: center;
+  background-color: yellow;
+}
+
+.par {
+  border: 2px solid green;
+  width: 250px;
+  margin: 10px;
+  text-align: center;
+  background-color: lightgrey;
+}

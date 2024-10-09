@@ -1,0 +1,129 @@
+
+/*XS*/
+h1 {
+  color: red;
+}
+
+/*SM >= 576px*/
+@media (min-width: 576px) {
+  h1 {
+    color: blue;
+  }
+}
+
+/*MD >= 769px*/
+@media (min-width: 768px) {
+  h1 {
+    color: yellow;
+  }
+}
+
+/*LG >= 992px*/
+@media (min-width: 992px) {
+  h1 {
+    color: gray;
+  }
+}
+
+/*XL >= 1200px*/
+@media (min-width: 1200px) {
+  h1 {
+    color: black;
+  }
+}
+
+/*XXL > 1400*/
+@media (min-width: 1400px) {
+  h1 {
+    color: white;
+    background-color: lightgray;
+  }
+}
+.btn-primary {
+  background-color: rgb(230, 16, 16);
+}
+
+.container {
+  background-color: yellow;
+}
+
+.container-fluid {
+  background-color: pink;
+}
+
+/* container breakpoint*/
+.container-sm {
+  border: 2px solid blue;
+  margin-bottom: 15px;
+}
+
+.container-md {
+  border: 2px solid crimson;
+  margin-bottom: 15px;
+}
+
+.container-lg {
+  border: 2px solid chocolate;
+  margin-bottom: 30px;
+}
+
+/*Grid*/
+.container {
+  border: 5px dotted black;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+.row {
+  border: 5px solid purple;
+  height: 100px;
+  padding: 10px;
+  margin: 0;
+}
+
+.col, .col-1, .col-2, .col-3, .col-4, .col-6, .col-11 {
+  border: 2px dashed red;
+  height: 100%;
+  margin: 0;
+}
+
+#larguraLimitada {
+  max-width: 500px;
+}
+
+/*Alinhamento vertical*/
+.vertical {
+  height: 250px;
+  border-color: coral;
+}
+
+.vertical .row {
+  height: 100%;
+}
+
+.vertical .col-6, .col-3 {
+  height: 50px;
+}
+
+/* Offset */
+#offset {
+  height: auto;
+}
+#offset .col-md-3 {
+  height: 50px;
+  border: 2px dashed red;  
+}
+
+/* gutter */
+#gutter .row {
+  height: 200px;
+}
+
+#gutter .col-6 {
+  margin: auto;
+  height: 50px;
+}
+
+.row p {
+  border: 2px solid green;
+}
